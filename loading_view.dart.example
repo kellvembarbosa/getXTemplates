@@ -1,5 +1,9 @@
-import 'package:flutter/material.dart';
+// Command
+// get create view:loading with 'https://raw.githubusercontent.com/kellvembarbosa/getXTemplates/main/loading_view.dart.example' on widgets
+//
 @import
+
+import 'package:flutter/material.dart';
 
 class @view extends GetView {
   final int status;
