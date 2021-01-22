@@ -1,0 +1,21 @@
+@import
+
+class @controller extends GetxController {
+  //TODO: Implement TabsController
+
+  final _selectedTab = 0.obs;
+  PageController tabBarController;
+
+  @override
+  onInit() {
+    tabBarController = new PageController(initialPage: selectedTab);
+    super.onInit();
+  }
+
+  int get selectedTab => _selectedTab.value;
+
+  void updateTab(int newSelected) {
+    _selectedTab.value = newSelected;
+    tabBarController.jumpToPage(newSelected);
+  }
+}
