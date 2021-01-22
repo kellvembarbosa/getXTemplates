@@ -1,6 +1,7 @@
 // Command
+// first create directory widgets
 // get create view:loading with 'https://raw.githubusercontent.com/kellvembarbosa/getXTemplates/main/loading_view.dart.example' on widgets
-//
+//------------------------------------------------------------------------------
 @import
 
 import 'package:flutter/material.dart';

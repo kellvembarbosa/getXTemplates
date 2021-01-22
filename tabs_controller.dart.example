@@ -1,3 +1,7 @@
+// Command
+// first create directory modules/tabs
+// get create controller:tabs with 'https://raw.githubusercontent.com/kellvembarbosa/getXTemplates/main/tabs_controller.dart.example' on modules/tabs
+//----------------------------------------------------------------
 @import
 
 class @controller extends GetxController {

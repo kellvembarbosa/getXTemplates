@@ -1,3 +1,7 @@
+// Command
+// first create directory modules/tabs
+// get create view:tabs with 'https://raw.githubusercontent.com/kellvembarbosa/getXTemplates/main/tabs_view.dart.example' on modules/tabs
+//----------------------------------------------------------------
 @import
 
 class @view extends GetView<TabsController> {
