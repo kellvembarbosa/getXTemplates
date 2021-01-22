@@ -1,11 +1,11 @@
 @import
 
-class @widget extends StatelessWidget {
+class @view extends GetView {
   final int status;
   final Widget child;
   final VoidCallback onPressed;
 
-  LoadingWidget(
+  LoadingView(
       {Key key, @required this.status, @required this.child, this.onPressed})
       : super(key: key);
 
